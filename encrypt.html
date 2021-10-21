@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!-- This is a comment... -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- Establish title -->
+    <title>ENCRYPT AND DECRYPT!!!!</title>
+  </head>
+  <body>
+    <!-- What to display in body -->
+    <p id="display">ENCRYPT/DECRYPT</p>
+    <!-- this line of code holds a value input by the user; creates form field -->
+    <input type="text" placeholder="Type " id="inputId">
+    <!-- Create button to perform encryption by calling on encryptClick function -->
+    <button type="button1" onclick="encryptClick()">Encrypt Message</button><br><br>
+     <!-- this line of code holds a value input by the user; creates form field -->
+    <input type="text" placeholder="Type " id="inputId2">
+     <!--create button to perform decryption by calling on decryptClick function  -->
+    <button type="button2" onclick="decryptClick()">Decrypt Message</button><br><br>
+    <!-- These are displays that will display the encrypted and decrypted phrases on the website -->
+    <p id="encryptedDisplay1">Encrypted message</p>
+    <p id="decryptedDisplay2">Decrypted message</p>
+  </body>
+  <!-- This is where we delcare our source file so the html document knows where to access the encryption and deccryption functions from -->
+  <script src = "js/encryptScrabble.js"></script>
+</html>
